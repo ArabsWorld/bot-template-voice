@@ -11,7 +11,7 @@ const client = new Discord.Client({ intents: 3276799 });//a bot derver by boodyh
 client.config = require('./boodyhsn/config.json');
 const db = require('pro.db');//الداتا بيز مش منجو دبي
 
-client.login(client.config.token).then(() => { console.log(`[!] — Logged in as ${client.user.tag} (${client.user.id})`); }).catch(() => { console.log('\x1b[31m[!] — Please configure a valid bot token\x1b[0m'); });
+client.login(client.config.token).then(() => { console.log(`bot is online ${client.user.tag} (${client.user.id})`); }).catch(() => { console.log('\x1b[31m[!] — Please configure a valid bot token\x1b[0m'); });
 
 client.on('messageCreate', async (message) => {
     if (!client.config.OwnersId.includes(message.author.id)) return;
