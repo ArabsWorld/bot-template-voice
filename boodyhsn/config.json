@@ -2,7 +2,7 @@
     "token": "token_your_bot",
     "prefix": "prefix_you",
     "color": "#25b6b9",
-    "ChannelId" : "chaneel_id",
+    "ChannelId" : "chaneel_voice_id",
     "CategoryId" : "category_id",
     "OwnersId": ["owner_id"]
 }
